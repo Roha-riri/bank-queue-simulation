@@ -1,0 +1,21 @@
+Bank queue simulation (M/M/c) - results
+Parameters: lambda = 0.8 customers/min, mean service time = 3 min
+SIM_TIME = 100000 min, WARM_UP = 1000 min, SEED = 42
+
+Number of tellers: 3
+Waiting time Wq (min):  simulation 3.202  theory 3.236
+Queue length Lq:        simulation 2.563  theory 2.589
+Utilization:            simulation 0.798  theory 0.8
+Throughput (cust/hour): simulation 48.0  theory 48.0
+
+Number of tellers: 4
+Waiting time Wq (min):  simulation 0.539  theory 0.538
+Queue length Lq:        simulation 0.43  theory 0.431
+Utilization:            simulation 0.594  theory 0.6
+Throughput (cust/hour): simulation 47.8  theory 48.0
+
+Number of tellers: 5
+Waiting time Wq (min):  simulation 0.135  theory 0.131
+Queue length Lq:        simulation 0.107  theory 0.105
+Utilization:            simulation 0.477  theory 0.48
+Throughput (cust/hour): simulation 47.9  theory 48.0
